@@ -1,0 +1,93 @@
+/* style.css */
+
+/* Estilos gerais */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0055ff;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* Formulário de contato */
+#contato-form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: azure;
+}
+
+#contato-form input[type="text"],
+#contato-form input[type="email"],
+#contato-form input[type="tel"],
+#contato-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: azure;
+}
+
+#contato-form button {
+    background-color: #ff47b5;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contato-form button:hover {
+    background-color: #ff47b5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Botões Mostrar/Ocultar Contatos */
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botoes button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff47b5;
+    color: #fff;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botoes button:hover {
+    background-color: #ff47b5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Lista de contatos */
+#contato-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contato-lista li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    border-radius: 5px;
+    
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #contato-form {
+        max-width: 100%;
+    }
+}
